@@ -1,0 +1,75 @@
+/* acrescentar o CSS todo aqui */
+/* * {
+    outline: 1px solid tomato;
+    
+} */
+
+body {
+    
+    width: 500px;
+    margin: 0 auto;
+    background-image: url(https://assets3.thrillist.com/v1/image/1855162/size/tl-horizontal_main_2x.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
+}
+
+h1 {
+    font-size: 3.5em;
+    font-family: sans-serif;
+    color: black;
+    text-shadow: 10px 1px 4px blueviolet;
+    padding-bottom: 5px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+}
+h1:hover {
+    font-size: 3.5em;
+    font-family: sans-serif;
+    color: white;
+    text-shadow: 10px 1px 4px blueviolet;
+    padding-bottom: 5px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+
+
+.title{
+    font-family: sans-serif;
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background-color: gray;
+    box-shadow: 5px 5px 10px black;
+}
+
+.title.input {
+    width: 50px;
+}
+
+.addEvent {
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    background-color: gray;
+    box-shadow: 5px 5px 10px black;
+}
+
+.footer {
+    font-family: sans-serif;
+    font-size: small;
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    margin: 10px 0;
+    background-color: gray;
+    box-shadow: 5px 5px 10px black;
+}
+
+a {
+    text-decoration: none;
+}

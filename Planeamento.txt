@@ -1,0 +1,49 @@
+Homepage
+	Login
+	Criar conta
+	Recuperação de password
+
+Ver Calendário
+	Navegar pelo calendário
+		Voltar
+
+Agendar evento
+	Selecionar dia
+	Nomear artista/evento
+	definir horario
+	definir cachet
+	adicionar notas
+	confirmar agendamento
+	Alertas
+		Voltar
+
+Normas\Procedimentos
+		voltar	
+
+DB de artistas/eventos
+	voltar
+
+Arquivos
+	voltar
+
+Contactos
+	enviar e-mail
+		voltar
+
+Reportar problemas
+	voltar
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+	

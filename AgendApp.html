@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgendApp</title>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"> -->
+    <link rel="stylesheet" href="index.css">
+    
+    <script src="AgendApp.js"></script>
+    <script src="calendário.js"></script>
+    <script src="artista.js"></script>
+    <script src="artistas.js"></script>
+    <script src="evento.js"></script>
+    
+</head>
+
+<body onload="window.app = new AgendApp()">
+    
+    <div class="container">
+        
+        <h1>AgendAPP</h1>
+        
+        
+        
+        <div class="title">
+            
+            <h2>Bem-vindo ao AgendApp</h2>
+            <!-- <p>introduza as credenciais de acesso</p> -->
+            
+            <h2>Pesquisa</h2>
+            <input id="search" type="text" onClick="this.value='';" style="width: 485px">
+            <input type="button" value="Pesquisar">
+            
+        </div>
+        
+        <div class="addEvent">
+            
+            <h2>Acrescentar um evento</h2>
+            
+            <form>
+                <label for="nome">Nome do evento:</label><br>
+                <input type="text" id="nome" name="nome" style="width: 485px"><br>
+                
+                <label for="tipo">Tipo de evento:</label><br>
+                <input type="text" id="tipo" name="tipo" style="width: 485px"><br>
+                
+                <label for="data">Data:</label><br>
+                <input type="text" id="data" name="data" style="width: 485px"><br>
+                
+                <label for="hora">Hora:</label><br>
+                <input type="text" id="hora" name="hora" style="width: 485px"><br>
+                
+                <label for="duração">Duração:</label><br>
+                <input type="text" id="duração" name="duração" style="width: 485px"><br>
+                
+                <label for="preço">Preço:</label><br>
+                <input type="text" id="preço" name="preço" style="width: 485px"><br>
+                
+                <label for="confirmação">Confirmado?:</label><br>
+                <input type="text" id="confirmação" name="confirmação" style="width: 485px"><br>
+                <br>
+                <input type="button" value="Agendar" class="button_active" style="text-align: center" onclick="location.href='submetido.html';"/>
+            </form>
+              
+        </div>       
+        
+        <div class="footer">
+            <p>Todos os direitos reservados © Pedro Alves, 2020</p>
+            <a href="#">Contacto</a>
+        </div>
+        
+        <!-- fazer uma homepage de login seguido de um portal com as várias opções no ficheiro planeamento.txt
+        -->
+    </div>
+</body>
+
+</html>
